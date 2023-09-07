@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2adv-markup</title>
+</head>
+<body><!--Type all the code BELOW⬇︎ this line-->
+
+  <section>
+    <h1>Lists</h1>
+    <p>There are three kinds of lists: ordered, unordered, and definition. List items are wrapped in a list container.</p>
+    <h2>Ordered List</h2>
+      <ol>
+        <li>Item one</li>
+        <li>Second item</li>
+        <li>Another item</li>
+        <li>Last one</li>
+      </ol>
+    <h2>Unordered List</h2>
+      <ul>
+        <li>First same</li>
+        <li>Not again</li>
+        <li>
+          <ul>
+            <li>Lists can be</li>
+            <li>Nested to</li>
+            <li>Arbitrary depth</li>
+          </ul>
+        </li>
+        <li>Henceforth</li>
+      </ul>
+      <h2>Defitinion List</h2>
+        <dl>
+          <dt>Defitinion Term</dt>
+          <dd>Defitinion details include more information.</dd>
+          <dd>Lists, by definition, include more than one item.</dd>
+          <dd>Definition lists are hardly ever used, so . . . </dd>
+        </dl>
+  </section>  
+</body>
+</html>
