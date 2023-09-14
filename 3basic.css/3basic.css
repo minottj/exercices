@@ -1,0 +1,33 @@
+/*-- Type all the text below this line --*/
+:root {
+    --basic: #0F0; /*-- variable declaration --*/
+    front-family: 'Times New Romans', Garamond, Serif;
+    background-color: #fff8dc;
+}
+a:link, a:visited {/*-- and-selector --*/
+    color: var(--basic);
+}
+a:hover, a:visited {
+    text-description: none;
+}
+#unique { /*id selector --*/
+    dispaly: block;
+}
+.group { /*-- class selector --*/
+    text-transform: uppercase;
+}
+h1 { /*-- tyoe selector --*/
+    text-align: center;
+    text-shadow: 1px 1px rgba (0,0,0,0.25);
+}
+li > a { /*-- child selector --*/
+    front-weight:600;
+}
+main h1 { /*-- descendent selector --*/
+    front-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+img + p { /*-- adjacent sibling selector --*/
+    front-style: italic;
+}
